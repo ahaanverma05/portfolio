@@ -1,0 +1,86 @@
+li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: white;
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+li:hover {
+    font-size: 30px;
+    cursor: pointer; 
+    background: black;
+    color: white;
+}
+#nav-bar {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background: rgb(51, 51, 51);
+    border-radius: 2px;
+    z-index: 9;
+    border-bottom: 5px solid black;
+}
+#screen-one {
+    height: 100vh;
+    width: 100%;
+    border-bottom: 4px solid #333;
+    background: linear-gradient(to right, rgb(168, 161, 173), rgb(95, 95, 95));
+}
+#screen-two {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(168, 161, 173), rgb(95, 95, 95));
+}
+#ahaan-verma-portfolio {
+    position: absolute;
+    top: -15px;
+    left: 69%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+#para-one {
+    position: absolute;
+    top: 36vh;
+    font-family: sans-serif;
+    font-size: 30px;
+    left: 50px;
+}
+#real-par {
+    max-width: 600px;
+    text-align: center;
+}
+#myimg {
+    position: absolute;
+    top: 35vh;
+    left: 70%;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-image: url("WIN_20210504_13_39_45_Pro.jpg");
+    background-size: 600px, 10000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #333;
+}
+#skills-i-know {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    position: absolute;
+    top: 100vh;
+    left: 33%;
+}
+#htmlcssjavascript {
+    margin-top: 185px;
+    margin-left: 23%;
+    height: 500px;
+    width: 900px;
+}
